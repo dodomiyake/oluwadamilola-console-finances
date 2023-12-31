@@ -87,4 +87,12 @@ var finances = [
   ["Feb-2017", 671099]
 ];
 
+
+var totalProfitAndLoss = 0;
+
+for (let i = 0; i < finances.length; i++) {
+  totalProfitAndLoss += finances[i][1];
+}
+
 console.log("Total Months:", finances.length);
+console.log(`Total: $${totalProfitAndLoss}`);
