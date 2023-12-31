@@ -90,6 +90,10 @@ var finances = [
 
 var totalProfitAndLoss = 0;
 var totalChange = 0;
+var maxIncreaseAmount = 0;
+var maxIncreaseDate = '';
+var maxDecreaseAmount = 0;
+var maxDecreaseDate = '';
 
 for (let i = 0; i < finances.length; i++) {
   totalProfitAndLoss += finances[i][1];
@@ -100,6 +104,15 @@ for (let i = 0; i < finances.length; i++) {
     var monthlyChange = currentMonthAmount - previousMonthAmount;
     totalChange += monthlyChange;
   }
+
+  if (monthlyChange > maxIncreaseAmount) {
+    maxIncreaseAmount = monthlyChange;
+    maxIncreaseDate = finances[i][0];
+  }
+  if (monthlyChange < maxDecreaseAmount) {
+    maxDecreaseAmount = monthlyChange;
+    maxDecreaseDate = finances[i][0];
+  }
 }
 
 var averageChange = totalChange / (finances.length - 1); // Divide by (n-1) to get the average
@@ -107,3 +120,5 @@ var averageChange = totalChange / (finances.length - 1); // Divide by (n-1) to g
 console.log("Total Months:", finances.length);
 console.log(`Total: $${totalProfitAndLoss}`);
 console.log("Average Change:", averageChange.toFixed(2));
+console.log(`Greatest Increase in Profits/Losses: ${maxIncreaseDate} ($${maxIncreaseAmount})`);
+console.log(`Greatest Decrease in Profits/Losses: ${maxDecreaseDate} ($${maxDecreaseAmount})`);
