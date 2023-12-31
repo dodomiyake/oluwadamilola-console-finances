@@ -22,15 +22,15 @@ Welcome to the Console Finances app! This app is designed to analyze the financi
 
 ## Installation
 
-1. **Clone the Repository:**
+**Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/Console-Finances.git
    cd Console-Finances
    ```
 
-### The Console Finances App calculates the following:
+## The Console Finances App calculates the following:
 
-Total Number of Months:
+### Total Number of Months:
 
 Provides insights into the overall timeframe covered by the financial dataset.
 Net Total Amount of Profit/Losses:
