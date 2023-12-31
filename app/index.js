@@ -89,10 +89,21 @@ var finances = [
 
 
 var totalProfitAndLoss = 0;
+var totalChange = 0;
 
 for (let i = 0; i < finances.length; i++) {
   totalProfitAndLoss += finances[i][1];
+
+  if (i > 0) {
+    var currentMonthAmount = finances[i][1];
+    var previousMonthAmount = finances[i - 1][1];
+    var monthlyChange = currentMonthAmount - previousMonthAmount;
+    totalChange += monthlyChange;
+  }
 }
+
+var averageChange = totalChange / (finances.length - 1); // Divide by (n-1) to get the average
 
 console.log("Total Months:", finances.length);
 console.log(`Total: $${totalProfitAndLoss}`);
+console.log("Average Change:", averageChange.toFixed(2));
