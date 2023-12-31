@@ -30,18 +30,14 @@ Welcome to the Console Finances app! This app is designed to analyze the financi
 
 ## The Console Finances App calculates the following:
 
-### Total Number of Months:
+- The total number of months included in the dataset.
 
-Provides insights into the overall timeframe covered by the financial dataset.
-Net Total Amount of Profit/Losses:
+- The net total amount of Profit/Losses over the entire period.
 
-Summarizes the overall financial performance over the entire period.
-Average Changes in Profit/Losses:
+- The average of the **changes** in Profit/Losses over the entire period.
+  * You will need to track what the total change in Profit/Losses are from month to month and then find the average.
+  * (`Total/(Number of months - 1)`)
 
-Calculates the average monthly change in Profit/Losses.
-Greatest Increase in Profit/Losses:
+* The greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
 
-Identifies the month with the highest increase in Profit/Losses and the corresponding amount.
-Greatest Decrease in Profit/Losses:
-
-Identifies the month with the highest decrease in Profit/Losses and the corresponding amount.
+* The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
