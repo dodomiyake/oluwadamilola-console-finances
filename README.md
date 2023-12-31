@@ -4,14 +4,6 @@
 
 Welcome to the Console Finances app! This app is designed to analyze the financial records of a company using JavaScript. It provides key metrics and insights based on the provided financial dataset. The project aims to assist users in understanding the overall financial performance and trends over a given period.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Analysis Metrics](#analysis-metrics)
-- [Contributing](#contributing)
-
 ## Project Structure
 
 ```
@@ -41,3 +33,14 @@ Welcome to the Console Finances app! This app is designed to analyze the financi
 * The greatest increase in Profit/Losses (date and difference in the amounts) over the entire period.
 
 * The greatest decrease in Profit/Losses (date and difference in the amounts) over the entire period.
+
+## Contact
+
+If you have any inquiries, want to collaborate, or just chat, feel free to reach out:
+
+- **Email**: [your.email@example.com](mailto:oluwadamilola.william@gmail.com)
+- **GitHub**: [https://github.com/yourusername](https://github.com/dodomiyake)
+
+Looking forward to connecting with you!
+
+---
