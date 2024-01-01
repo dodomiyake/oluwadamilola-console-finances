@@ -24,6 +24,8 @@ You can access the live demo of the app at https://dodomiyake.github.io/oluwadam
 
 #### Screenshot
 ![image](https://github.com/dodomiyake/oluwadamilola-console-finances/assets/70576110/8a8a726d-276c-45f1-8ca5-c5b32d819197)
+![image](https://github.com/dodomiyake/oluwadamilola-console-finances/assets/70576110/55f4cc78-1827-421b-b33d-ba4a0602ce71)
+
 
 ## Technologies Used
 
