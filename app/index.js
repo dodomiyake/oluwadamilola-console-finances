@@ -117,6 +117,8 @@ for (let i = 0; i < finances.length; i++) {
 
 var averageChange = totalChange / (finances.length - 1); // Divide by (n-1) to get the average
 
+console.log("Financial Analysis");
+console.log("------------------");
 console.log("Total Months:", finances.length);
 console.log(`Total: $${totalProfitAndLoss}`);
 console.log("Average Change:", averageChange.toFixed(2));
